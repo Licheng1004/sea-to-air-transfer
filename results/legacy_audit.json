@@ -1,0 +1,61 @@
+{
+  "note": "Legacy notebook outputs use different targets and cohorts and are not used for model ranking. Original source files were not modified. Historical as-of date 2024-11-04 was fixed for repeatability. All runtime adaptations were made in work copies.",
+  "runs": [
+    {
+      "file": "Transfer_Greedy.ipynb",
+      "status": "passed",
+      "evidence": "All notebook cells executed and produced After_Greedy_Transfer.xlsx; summary reconstructed from that saved output after the inspector encountered its older METHOD column name.",
+      "adaptations": [
+        "fixed historical as-of date 2024-11-04",
+        "explicit pandas weight replacement",
+        "disabled GUI plotting"
+      ],
+      "Sorted_DATA": {
+        "rows": 70817,
+        "columns": 24
+      },
+      "air_rows": 543,
+      "unique_air_orders": 496,
+      "air_wrong_method": 32,
+      "air_duplicate_orders": 47
+    },
+    {
+      "file": "Transfer_Greedy_1016.ipynb",
+      "status": "passed",
+      "adaptations": [
+        "fixed historical as-of date 2024-11-04",
+        "RMSE API compatibility",
+        "single-worker learning curve",
+        "disabled Excel viewer and GUI plotting"
+      ],
+      "Sorted_DATA": {
+        "rows": 30335,
+        "columns": 25
+      },
+      "air_rows": 384,
+      "unique_air_orders": 229,
+      "air_wrong_method": 7,
+      "air_duplicate_orders": 155,
+      "seconds": 104.44
+    },
+    {
+      "file": "Transfer_Greedy_1022.ipynb",
+      "status": "passed",
+      "adaptations": [
+        "fixed historical as-of date 2024-11-04",
+        "RMSE API compatibility",
+        "single-worker learning curve",
+        "disabled Excel viewer and GUI plotting"
+      ],
+      "Sorted_DATA": {
+        "rows": 30335,
+        "columns": 25
+      },
+      "air_rows": 380,
+      "unique_air_orders": 183,
+      "air_wrong_method": 18,
+      "air_duplicate_orders": 197,
+      "seconds": 108.01
+    }
+  ]
+}

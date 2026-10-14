@@ -1,0 +1,39 @@
+{
+  "as_of": "2024-11-04",
+  "air_transit_days": 7,
+  "policy": "closest_quantity",
+  "allow_air": true,
+  "fully_allocated_sales_orders": 7160,
+  "fully_on_time_sales_orders": 5834,
+  "sales_orders": 10264,
+  "priority_fulfillment_score": [
+    9,
+    1305,
+    8,
+    244,
+    5594
+  ],
+  "transferred_po_lines": 181,
+  "air_weight_kg": 10185.873,
+  "checks": {
+    "quota_nonnegative": true,
+    "stock_nonnegative": true,
+    "po_supply_conserved": true,
+    "unique_transfer_keys": true,
+    "candidate_method_and_country": true,
+    "demand_conserved": true
+  },
+  "input_profile": {
+    "input_po_rows": 12542,
+    "exact_duplicate_po_rows_removed": 732,
+    "ambiguous_po_rows_quarantined": 2,
+    "po_rows_rejected": 0,
+    "usable_po_lines": 4713,
+    "input_so_rows": 10264,
+    "invalid_or_nonpositive_so_rows": 0,
+    "sales_orders": 10264,
+    "buffer_demands": 1110,
+    "quota_month": "Nov"
+  },
+  "warning": "Greedy decision support, not a proof of global optimality. Overdue orders cannot become on-time retroactively."
+}
