@@ -1,0 +1,38 @@
+{
+  "source": "User-supplied desktop pyProject snapshot",
+  "publication_authorization": "User explicitly authorized public release of original data on 2026-10-14.",
+  "inputs": [
+    {
+      "file": "data/Open PO.xlsx",
+      "original_name": "Open PO.xlsx",
+      "original_bytes": 1008350,
+      "original_sha256": "a5739976f74e197651d473f92fc09557292285d615d70eff98979bc77e019880",
+      "stored_bytes": 1008350,
+      "stored_sha256": "a5739976f74e197651d473f92fc09557292285d615d70eff98979bc77e019880"
+    },
+    {
+      "file": "data/Open SO.xlsx",
+      "original_name": "Open SO.xlsx",
+      "original_bytes": 759461,
+      "original_sha256": "348d9a1592a94a204aaf9f5a46b04d95d1ece1b76d9f093645ac42a0d65768a2",
+      "stored_bytes": 759461,
+      "stored_sha256": "348d9a1592a94a204aaf9f5a46b04d95d1ece1b76d9f093645ac42a0d65768a2"
+    },
+    {
+      "file": "data/Material List.xlsx",
+      "original_name": "Material List.xlsx",
+      "original_bytes": 1338333,
+      "original_sha256": "f84b72d561418d8336dacdc04af3be8da084c14128fb85d836395220f34bd764",
+      "stored_bytes": 1338333,
+      "stored_sha256": "f84b72d561418d8336dacdc04af3be8da084c14128fb85d836395220f34bd764"
+    },
+    {
+      "file": "data/Quota.xlsx",
+      "original_name": "Quota.xlsx",
+      "original_bytes": 10606,
+      "original_sha256": "5d3868dfe0b8cba2be147af3e243a72fff813ed9cdd8f76816d5aaf53b908af6",
+      "stored_bytes": 10606,
+      "stored_sha256": "5d3868dfe0b8cba2be147af3e243a72fff813ed9cdd8f76816d5aaf53b908af6"
+    }
+  ]
+}

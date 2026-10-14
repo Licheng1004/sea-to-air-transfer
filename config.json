@@ -1,0 +1,6 @@
+{
+  "as_of": "2024-11-04",
+  "air_days": 7,
+  "policy": "closest_quantity",
+  "allow_air": true
+}
